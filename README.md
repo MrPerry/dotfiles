@@ -8,4 +8,4 @@
     ln -s $HOME/dotfiles/files/vimrc $HOME/.vimrc
 
 ### Install addons
-    PlugInstall
+    :PlugInstall
