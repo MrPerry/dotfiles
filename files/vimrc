@@ -1,0 +1,42 @@
+set nocompatible
+
+call plug#begin('~/.vim/plugged')
+
+" Plugin 'christoomey/vim-tmux-navigator'
+Plug 'scrooloose/nerdtree'
+Plug 'nanotech/jellybeans.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-git'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'majutsushi/tagbar'
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'wlangstroth/vim-racket'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
+call plug#end()
+
+syntax on
+set expandtab
+set tabstop=4
+set showmode
+set softtabstop=4
+set shiftwidth=4
+set noswapfile
+set number
+let mapleader=","
+set nofoldenable
+set number
+set hlsearch
+set ignorecase
+set smartcase
+set cursorline
+set hidden
+set history=1000
+set incsearch
+colorscheme jellybeans
+
+nmap <C-\> :NERDTreeFind<CR>
+nmap <silent> <leader><leader> :NERDTreeToggle<CR>
+nmap <silent> // :nohlsearch<CR>
+
+set laststatus=2
+let g:ctrlp_follow_symlinks=1
