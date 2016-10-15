@@ -11,6 +11,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
 Plug 'shawncplus/phpcomplete.vim'
 Plug 'wlangstroth/vim-racket'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 "Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
