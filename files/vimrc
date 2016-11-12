@@ -11,7 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
 Plug 'shawncplus/phpcomplete.vim'
 Plug 'wlangstroth/vim-racket'
-Plug 'SirVer/ultisnips'
+" Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 "Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
@@ -34,6 +34,8 @@ set cursorline
 set hidden
 set history=1000
 set incsearch
+set wrap
+set showcmd
 colorscheme jellybeans
 
 nmap <C-\> :NERDTreeFind<CR>
